@@ -1,0 +1,60 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2021-11-07T20:49:44.489Z",
+    "line" : 3,
+    "name" : "Check if user can login succesfully",
+    "description" : "",
+    "id" : "to-test-log-in-funtionality;check-if-user-can-login-succesfully",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 1008700,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "I am on the homepage",
+      "match" : {
+        "location" : "StepDefinitions.SearchSteps.i_am_on_the_homepage()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "I see the welcome message",
+      "match" : {
+        "location" : "StepDefinitions.SearchSteps.i_see_the_welcome_message()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "I click on the search box",
+      "match" : {
+        "location" : "StepDefinitions.SearchSteps.i_click_on_the_search_box()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "I should be logged in",
+      "match" : {
+        "location" : "StepDefinitions.SearchSteps.i_should_be_logged_in()"
+      },
+      "keyword" : "Then "
+    } ]
+  } ],
+  "name" : "To test log in funtionality",
+  "description" : "",
+  "id" : "to-test-log-in-funtionality",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/resources/Features/Search.feature",
+  "tags" : [ ]
+} ]
